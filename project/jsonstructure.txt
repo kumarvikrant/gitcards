@@ -1,0 +1,127 @@
+- About me
+   - Profile date
+       - image:img
+       - name:string
+       - designation:string
+       - organization: string autocomplete
+       - current location: string autocomplete
+       - sex: string
+       - age: number
+       - date of birth: date
+   - Summary
+       - Snapshot: text
+   - contact information
+       - email:email - multiple addresses
+       - phones:phone number - multiple
+       - addresses: address - permanent and current
+       - Linked in URL:URL
+       - facebook URL:URL
+       - github URL:URL
+   - Other personal data
+       - blood group: string dropdown
+       - marital status: string dropdown
+       - nationality:string dropdown
+- Location
+   - current
+       - place: string autocomplete
+       - country: string autocomplete
+       - from when: date
+       - activity:drop down - stay/work/study
+   - past
+       - place: string autocomplete
+       - country: string autocomplete
+       - from when: date
+       - to when: date
+       - activity: drop down - stay/work/study
+- Education
+   - Summary
+       - education summary: text
+   - Qualification
+       - Level: dropdown - doctoral, under grad, post grad, certification
+       - Stream: dropdown - engineering/others
+       - qualification name: string
+       - qualification date:month/year
+       - from where: autocomplete from organization or institution
+   - Institutions
+       - Name: string
+       - Type: dropdown - school/college/institute/university
+       - from when: date
+       - to when:date
+       - special achievements: text
+       - group memberships: text
+       - batch of:year -  of graduation
+       - results achieved: text
+- Professional Experience
+   - Summary
+       - work experience summary:text
+   - Roles played
+       - organization: autocomplete from a list
+       - org logo: img
+       - org type: dropdown
+       - location: autocomplete place, country
+       - from when: date
+       - to when:date
+       - designation: string autocomplete
+       - role: string autocomplete
+       - description: text
+       - scale: string
+       - level: string
+- Projects
+   - Name: text
+   - from when: date
+   - to when: date
+   - for whom: autocomplete - organization or education institute or self or open source
+   - done at: autocomplete - place from where the project was done
+   - done at location: string autocomplete
+   - size of the project: string
+   - tech skills used: multiple elements autocomplete from skills list
+   - role: string
+   - status of the project: dropdown- beta, released, open source etc
+   - demo URL: URL
+   - source URL : URL
+   - synopsis: URL
+- Skills
+   - name: text
+   - level: number
+   - time spent on it: number - indicates time
+   - usage : text - don’t know what this is for now
+- Endorsements/recommendation
+   - endorser name: string
+   - designation: string
+   - when: date
+   - why: drop down - co-worker, customer, reported, manager
+   - summary: text
+   - skill area: multiple from skills list
+- Accomplishments and interests
+   - Activities
+       - Type: drop down - co-curricular/volunteering
+       - Participation: string
+       - from When: date
+       - to when: date
+       - Where: string autocomplete
+       - organization:string autocomplete
+       - summary: text
+   - Hobbies
+       - Name: text
+   - Publications
+       - Type: dropdown - book/journal/scientific paper etc
+       - URL: IRL
+       - when: date
+       - Summary: text
+   - Conference participation
+       - conference name: text
+       - location: string autocomplete from places
+       - when: date
+       - type: dropdown - industry, technical, scientific
+       - topic: text
+   - Special Achievements
+       - Achievements_Name: text
+       - When: date
+       - where: string autocomplete from places
+- Network of people
+   - Followed
+       - Name
+       - from when: date
+   - Following
+       - Name
+       - from when: date

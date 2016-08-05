@@ -1,0 +1,32 @@
+<div ng-controller="DemoCtrl">
+   <md-card layout-gt-sm="column" layout-align="space-around center" layout-padding flex="50">
+      <md-card-title>
+         <md-card-title-text>
+            <span class="md-headline">Past-Location</span>
+         </md-card-title-text>
+         <br>
+      </md-card-title>
+      <div>
+         <md-input-container>
+            <label>Place</label>
+            <input type="text">
+         </md-input-container>
+         &nbsp;&nbsp;&nbsp;&nbsp;
+         <md-input-container>
+            <label>Country</label>
+            <input type="text">
+         </md-input-container>
+      </div>
+      <md-input-container style="margin-right: 10px;">
+         <label>Activity</label>
+         <md-select ng-model="activity">
+            <md-option ng-repeat="activity in activities">{{activity}}</md-option>
+         </md-select>
+      </md-input-container>
+      &nbsp;&nbsp;&nbsp;
+      <div>
+         <md-datepicker ng-model="from_when" md-placeholder="From"></md-datepicker>
+         <md-datepicker ng-model="to_when" md-placeholder="To"></md-datepicker>
+      </div>
+   </md-card>
+</div>

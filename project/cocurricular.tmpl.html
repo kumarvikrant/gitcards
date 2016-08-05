@@ -1,0 +1,20 @@
+<div flex="60" layout-align="center center">
+<div ng-controller="DemoCtrl" layout="row" flex="100" ng-cloak class="md-inline-form">
+<md-card md-theme="docs-dark" layout-gt-sm="column" layout-padding flex="50">
+   <div>
+      <md-input-container>
+         <label>Participations</label>
+         <input ng-model="user.participations">
+      </md-input-container>
+      <md-input-container>
+         <label>Participation year or month</label>
+         <input ng-model="user.timeperiod" type="year">
+      </md-input-container>
+      <md-input-container>
+         <label>Place</label>
+         <input ng-model="user.place" type="location">
+      </md-input-container>
+   </div>
+</md-card>
+</div>
+</div>
